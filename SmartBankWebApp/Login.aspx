@@ -28,7 +28,7 @@
         </p>
         Password<p>
             <input id="Text2" type="text" /></p>
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Log In" />
+        <asp:Button ID="Button1" runat="server" Text="Log In" />
     </form>
 </body>
 </html>
