@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="LoginPage.aspx.cs" Inherits="Login" %>
 
 <!DOCTYPE html>
 
@@ -28,7 +28,7 @@
         </p>
         Password<p>
             <input id="Text2" type="text" /></p>
-        <asp:Button ID="Button1" runat="server" Text="Log In" />
+        <asp:Button ID="Button1" runat="server" Text="Log In" OnClick="Button1_Click" />
     </form>
 </body>
 </html>
